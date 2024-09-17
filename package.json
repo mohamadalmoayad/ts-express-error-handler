@@ -1,0 +1,23 @@
+{
+  "name": "ts-express-error-handler",
+  "version": "1.0.0",
+  "description": "A reusable error handling system for Express applications",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": ["typescript", "express", "error-handling", "http-errors-handler"],
+  "author": "Mo Designs Studio | Mohamad Almoayad",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-validator": "^7.2.0"
+  }
+}

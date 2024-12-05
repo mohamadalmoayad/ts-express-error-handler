@@ -1,6 +1,6 @@
 {
   "name": "ts-express-error-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reusable error handling system for Express applications",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
